@@ -1,3 +1,5 @@
+
+/* ------------- O SHAPE ------------- */
 #piece-o > .tet-group:nth-child(1) {
     flex-direction: row-reverse;
     order: 1;
@@ -12,3 +14,9 @@
     flex-direction: row-reverse;
     order: -1;
 } */
+
+/* ------------- i SHAPE ------------- */
+
+#piece-i .tet-piece {
+    order: -1;
+}
