@@ -20,3 +20,61 @@
 #piece-i .tet-piece {
     order: -1;
 }
+
+/* ------------- S SHAPE ------------- */
+
+/* #piece-s {
+    flex-flow: wrap;
+  } */
+
+/* #piece-s > .tet-group {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 25px;
+    flex-flow: wrap;
+}
+
+#piece-s > .tet-group:nth-child(1) {
+    flex-direction: row-reverse;
+    order: 1;
+}
+
+#piece-s > .tet-group:nth-child(3) {
+    flex-direction: row-reverse;
+    order: 1;
+
+} */
+
+/* ------------- L SHAPE ------------- */
+
+#piece-l > .tet-group {
+    display: flex;
+    flex-direction: row;
+}
+
+#piece-l > .tet-group:nth-child(1) {
+    flex-direction: row-reverse;
+    order: 1
+}
+
+#piece-l > .tet-group:nth-child(2) {
+    flex-direction: row;
+}
+
+#piece-l > .tet-group:nth-child(3) {
+    flex-direction: row;
+    order: 1
+}
+
+#piece-l > .tet-group:nth-child(4) {
+    flex-direction: row;
+}
+
+#piece-l > .tet-group:last-child {
+    flex-direction: row;
+    order: -1
+}
+
+#piece-l .tet-group:nth-child(4) .inner-block:nth-child(1) {
+    order: 1
+}
