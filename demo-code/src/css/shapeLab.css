@@ -78,3 +78,23 @@
 #piece-l .tet-group:nth-child(4) .inner-block:nth-child(1) {
     order: 1
 }
+
+/* ------------- J SHAPE ------------- */
+
+#piece-j > .tet-group:nth-child(1) {
+    flex-direction: row-reverse;
+}
+
+#piece-j > .tet-group:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+#piece-j > .tet-group:nth-child(3) {
+    flex-direction: row;
+    order: 1
+}
+
+#piece-j > .tet-group:nth-child(4) {
+    flex-direction: row;
+    order: 1
+}
