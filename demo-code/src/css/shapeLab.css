@@ -1,0 +1,14 @@
+#piece-o > .tet-group:nth-child(1) {
+    flex-direction: row-reverse;
+    order: 1;
+}
+
+/* Extra testing */
+/* #piece-o > .tet-group:nth-child(4) {
+    flex-direction: row-reverse;
+}
+
+#piece-o > .tet-group:nth-child(5) {
+    flex-direction: row-reverse;
+    order: -1;
+} */
