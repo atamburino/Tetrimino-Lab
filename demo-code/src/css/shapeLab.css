@@ -1,8 +1,7 @@
-
 /* ------------- O SHAPE ------------- */
 #piece-o > .tet-group:nth-child(1) {
-    flex-direction: row-reverse;
-    order: 1;
+  flex-direction: row-reverse;
+  order: 1;
 }
 
 /* Extra testing */
@@ -18,21 +17,20 @@
 /* ------------- i SHAPE ------------- */
 
 #piece-i .tet-piece {
-    order: -1;
+  order: -1;
 }
 
 /* ------------- S SHAPE ------------- */
 
 #piece-s > .tet-group {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
 }
 
 #piece-s > .tet-group:nth-child(1) {
-    flex-direction: row-reverse;
-    order: 1;
-
+  flex-direction: row-reverse;
+  order: 1;
 }
 
 /* #piece-s .tet-group:nth-child(1) .inner-block:nth-child(1) {
@@ -42,53 +40,53 @@
 /* ------------- L SHAPE ------------- */
 
 #piece-l > .tet-group {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 #piece-l > .tet-group:nth-child(1) {
-    flex-direction: row-reverse;
-    order: 1;
+  flex-direction: row-reverse;
+  order: 1;
 }
 
 #piece-l > .tet-group:nth-child(2) {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 #piece-l > .tet-group:nth-child(3) {
-    flex-direction: row;
-    order: 1;
+  flex-direction: row;
+  order: 1;
 }
 
 #piece-l > .tet-group:nth-child(4) {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 #piece-l > .tet-group:last-child {
-    flex-direction: row;
-    order: -1;
+  flex-direction: row;
+  order: -1;
 }
 
 #piece-l .tet-group:nth-child(4) .inner-block:nth-child(1) {
-    order: 1;
+  order: 1;
 }
 
 /* ------------- J SHAPE ------------- */
 
 #piece-j > .tet-group:nth-child(1) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 #piece-j > .tet-group:nth-child(2) {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 #piece-j > .tet-group:nth-child(3) {
-    flex-direction: row;
-    order: 1;
+  flex-direction: row;
+  order: 1;
 }
 
 #piece-j > .tet-group:nth-child(4) {
-    flex-direction: row;
-    order: 1;
+  flex-direction: row;
+  order: 1;
 }
