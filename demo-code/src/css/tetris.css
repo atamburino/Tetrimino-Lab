@@ -49,17 +49,15 @@ header, h1, aside h2 {
     background-color: #e6e6e6
 }
 
-.task-box * {
-    margin: 1rem;
-}
-
 .task-box h2 {
     flex-basis: 25%;
     text-align: center;
+    margin: 1rem;
 }
 
 .task-box p {
     flex-basis: 75%;
+    margin: 1rem;
 }
 
 .task-box:last-child {
