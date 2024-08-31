@@ -26,7 +26,8 @@ main {
     align-items: center;
 }
 
-/* Task Box Start ------------------------------------------------------------------------*/
+/* Task Box Start 
+------------------------------------------------------------------------*/
 .task-box {
     display: flex;
     flex-direction: row;
@@ -62,7 +63,7 @@ main {
     text-align: center;
 }
 
-/* Task Box End ------------------------------------------------------------------------*/
+/* Task Box End */
 
 main > * {
     margin: 2rem;
@@ -119,7 +120,8 @@ nav ul {
     align-items: flex-end;
 }
 
-/* Side bar css ----------------------------------------------------------------------------------------- */
+/* Side bar css 
+------------------------------------------------------------------------*/
 
 aside {
     position: fixed;
@@ -151,7 +153,8 @@ aside {
 }
 
 .active {
-    left: 0; /* Slides the aside into view */
+    left: 0; /* Slides the aside into view 
+    ------------------------------------------------------------------------*/
 }
 
 /* Styling for the toggle button */
@@ -174,7 +177,8 @@ aside {
     background-color: rgba(149, 54, 147, 0.98);
 }
 
-/* Styling the button when the aside is active */
+/* Styling the button when the aside is active
+------------------------------------------------------------------------*/
 aside.active #toggle-aside {
     border-radius: 5px 0 0 5px; /* Rounded corners on the left */
     right: 0px; /* Adjust this value to suit the button size */
@@ -188,7 +192,8 @@ aside.active #toggle-aside:hover {
 
 
 
-/* Pieces grid styling ---------------------------------------------------------------------------*/
+/* Pieces grid styling 
+------------------------------------------------------------------------*/
 
 
 
