@@ -26,7 +26,7 @@ main {
     align-items: center;
 }
 
-/* Task Box Start */
+/* Task Box Start ------------------------------------------------------------------------*/
 .task-box {
     display: flex;
     flex-direction: row;
@@ -62,7 +62,7 @@ main {
     text-align: center;
 }
 
-/* Task Box End */
+/* Task Box End ------------------------------------------------------------------------*/
 
 main > * {
     margin: 2rem;
@@ -119,6 +119,7 @@ nav ul {
     align-items: flex-end;
 }
 
+/* Side bar css ----------------------------------------------------------------------------------------- */
 
 aside {
     position: fixed;
@@ -187,7 +188,7 @@ aside.active #toggle-aside:hover {
 
 
 
-/* Pieces grid styling */
+/* Pieces grid styling ---------------------------------------------------------------------------*/
 
 
 
