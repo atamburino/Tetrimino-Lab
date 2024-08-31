@@ -29,6 +29,16 @@
   order: -1;
 }
 
+/* ------------- Z SHAPE ------------- */
+
+#piece-z .tet-group:nth-child(1) {
+  order:1;
+}
+
+#piece-z .tet-group:nth-child(5) .inner-block:nth-child(3), #piece-z .tet-group:nth-child(5) .inner-block:nth-child(5) {
+  order: -1
+}
+
 /* ------------- L SHAPE ------------- */
 
 #piece-l > .tet-group {
@@ -81,4 +91,42 @@
 #piece-j > .tet-group:nth-child(4) {
   flex-direction: row;
   order: 1;
+}
+
+
+/* ------------- T SHAPE ------------- */
+
+#piece-t {
+  flex-direction: row;
+}
+
+#piece-t .tet-group:nth-child(1) {
+  flex-direction: column;
+}
+
+#piece-t .tet-group:nth-child(2) {
+  flex-direction: column;
+  order: 1;
+}
+
+#piece-t .tet-group:nth-child(3) {
+  flex-direction: column;
+}
+
+#piece-t .tet-group:nth-child(4) {
+  flex-direction: column;
+  order: 1;
+}
+
+#piece-t .tet-group:nth-child(5) {
+  flex-direction: column;
+  order: 1;
+}
+
+#piece-t .tet-group:nth-child(1) .inner-block:nth-child(3) {
+  order: 1;
+}
+
+#piece-t .tet-group:nth-child(1) .inner-block:nth-child(4) {
+  order: -1
 }
