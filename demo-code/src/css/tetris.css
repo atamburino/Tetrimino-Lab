@@ -148,34 +148,65 @@ aside {
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers the items in each row */
     gap: 1rem;
     margin-top: 30px;
 }
 
 #tet-colors li  {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
     border-radius: 5px;
-    background-color: white;
-    padding: 2rem;
-    color: black;
+    background-color: black;
+    padding: 1rem;;
     font-weight: bold;
+    letter-spacing: 0.05em;
+    width: calc(50% - 1rem);
+
 }
 
-#tet-colors li:nth-child(1) p  {
-     
+#tet-colors li:hover {
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+.color-preview {
+    height: 15px;
+    width: 75%;
+    border-radius: 18px;
+    margin: 0 auto;  /* Centers the element horizontally */
+    margin-top: 5px;
+    display: block;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Pseudo-classes for each color */
 #tet-colors li:nth-child(1) .color-preview  {
-       /* border: 2px solid #FF0000; */
-       height: 20px;
-       width: 25%;
-       background-color: #EA3D1E;
-       margin: 0 auto;  /* Centers the element horizontally */
-       display: block;
-       border-radius: 100%;
-       margin-top: 5px;
+    background-color: #EA3D1E;
+}
+
+#tet-colors li:nth-child(2) .color-preview {
+    background-color: #F69230; /* ORANGE */
+}
+
+#tet-colors li:nth-child(3) .color-preview {
+    background-color: #FEF94C; /* YELLOW */
+}
+
+#tet-colors li:nth-child(4) .color-preview {
+    background-color: #79AF3D; /* GREEN */
+}
+
+#tet-colors li:nth-child(5) .color-preview {
+    background-color: #51E2FC; /* BLUE */
+}
+
+#tet-colors li:nth-child(6) .color-preview {
+    background-color: #953693; /* PURPLE */
+}
+
+#tet-colors li:nth-child(7) .color-preview {
+    background-color: #F16EB9; /* PINK */
 }
 
 .active {
