@@ -22,20 +22,12 @@
 
 /* ------------- S SHAPE ------------- */
 
-#piece-s > .tet-group {
-  display: flex;
-  flex-direction: row;
-  padding: 10px;
+#piece-s .tet-group:nth-child(1) {
+  order:1;
 }
-
-#piece-s > .tet-group:nth-child(1) {
-  flex-direction: row-reverse;
-  order: 1;
+#piece-s .tet-group:nth-child(5) .inner-block:nth-child(3) {
+  order: -1;
 }
-
-/* #piece-s .tet-group:nth-child(1) .inner-block:nth-child(1) {
-    order: 1;
-} */
 
 /* ------------- L SHAPE ------------- */
 
